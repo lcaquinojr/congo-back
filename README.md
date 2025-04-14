@@ -1,1 +1,6 @@
 # congo-back
+Este projeto tem como objetivo demonstrar a construção de uma API RESTful utilizando .NET 8 ou 10 com aplicação do padrão arquitetural CQRS (Command Query Responsibility Segregation). A proposta consiste em desenvolver uma base sólida de backend orientada a boas práticas de arquitetura, segurança e organização de código, com foco em projetos escaláveis e de fácil manutenção.
+
+O domínio do sistema será simples e didático: um cadastro de usuários com autenticação baseada em JWT (JSON Web Token). O armazenamento dos dados será feito em um banco de dados PostgreSQL, utilizando modelagem normalizada, sem abordagem de bancos separados para leitura e escrita.
+
+O uso do padrão CQRS será implementado de forma clara e direta, com separação de responsabilidades entre comandos e consultas, mas sem desnormalização de dados ou utilização de event sourcing — o foco é fornecer um exemplo objetivo e funcional da separação entre camadas de leitura e escrita em um contexto realista e simplificado.
