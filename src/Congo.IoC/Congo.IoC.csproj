@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Congo.Application\Congo.Application.csproj" />
+    <ProjectReference Include="..\Congo.Data\Congo.Data.csproj" />
+    <ProjectReference Include="..\Congo.Domain\Congo.Domain.csproj" />
+    <ProjectReference Include="..\Congo.ExternalServices\Congo.ExternalServices.csproj" />
+    <ProjectReference Include="..\Congo.Service\Congo.Service.csproj" />
+    <ProjectReference Include="..\Congo.Shared\Congo.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
